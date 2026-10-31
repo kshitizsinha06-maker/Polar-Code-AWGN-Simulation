@@ -1,0 +1,2 @@
+# Optional cross-verification only; not required to run the assignment app.
+sionna>=2.1
