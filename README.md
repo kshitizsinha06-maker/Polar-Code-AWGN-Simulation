@@ -2,6 +2,27 @@
 
 An educational end-to-end simulation of text transmission using a small Polar code, BPSK modulation, a real AWGN channel, and a recursive Successive Cancellation (SC) decoder.
 
+## 🚀 Live Application
+
+**Try the application here:**
+
+[Polar Code – Live Simulation](https://polar-code-awgn-simulation.streamlit.app/)
+
+Enter your own message, select an SNR between 0 and 15 dB, and explore the complete communication process, including Polar encoding, BPSK modulation, AWGN noise, SC decoding and message reconstruction.
+
+## 📊 Experimental Results
+
+The system was evaluated for SNR values from 0 dB to 15 dB using 1,200 frames per SNR point.
+
+The simulation generates:
+- BER vs SNR graph.
+- FER vs SNR graph.
+- Numerical error statistics.
+
+## 📄 Assignment Report
+
+The complete LaTeX assignment report, compiled PDF and experimental screenshots are available in the `report/` directory.
+
 ## Features
 
 - Enter a UTF-8 text message at the transmitter.
